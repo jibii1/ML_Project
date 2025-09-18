@@ -6,8 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 # 1. Load dataset
-df = pd.read_csv("hr_data.csv")  # dataset must have 'Promotion' column (0/1)
-print("First few rows of the dataset:")
+df = pd.read_csv("Data.csv")  
 print(df.head())
 
 # 2. Features & Target
